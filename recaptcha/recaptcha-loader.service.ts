@@ -11,6 +11,7 @@ import { BehaviorSubject, Observable, of } from 'rxjs';
 export const RECAPTCHA_LANGUAGE = new InjectionToken<string>('recaptcha-language');
 export const RECAPTCHA_BASE_URL = new InjectionToken<string>('recaptcha-base-url');
 export const RECAPTCHA_NONCE = new InjectionToken<string>('recaptcha-nonce-tag');
+export const RECAPTCHA_URLPARAMS = new InjectionToken<string>('recaptcha-urlParams');
 
 declare global {
   interface Window {
